@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.container{
+    background-color: rgb(104, 104, 104);
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+}
+.T1{
+ 
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo img{
+width: 80%;
+display: block;
+}
+.logo text{
+width: 20%;
+}
+.T2{
+    text-align: center;
+    margin: 20px;
+}
+.T3{
+padding:10px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.T3 input{
+    padding: 10px;
+
+}
+.button{
+background-color: black;
+color: aliceblue;
+padding: 10px;
+font-weight: bold;
+
+}
+        
+.T4{
+    text-align: center;
+    color: #f8f1f1;
+    font-size: small;
+}
+

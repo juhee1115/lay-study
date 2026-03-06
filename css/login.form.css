@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li,ui{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.container{
+    background-color: rgb(229, 229, 252);
+    width: 500px;
+    margin: 100px;
+    padding: 20px;
+}
+.box{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+}
+.name{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: larger;
+
+}
+.box1 input{
+ flex-direction: column;
+ display: flex;
+width: 380px;
+padding: 15px;
+font-size: larger;
+border-radius: 50px;
+margin: 10px;
+}
+.login{
+background-color: black;
+color: aliceblue;
+width: 380px;
+padding: 15px;
+font-size: larger;
+border-radius: 50px;
+margin: 10px;
+}
+.forgot{
+    text-align: center;
+    font-size: small;
+    padding: 30px;
+    color: #333;
+}
