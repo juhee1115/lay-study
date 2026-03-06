@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+color: #333;
+text-decoration: none;
+}
+/* box flex 적용 */
+.container{
+    width: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.box1{
+    background-color: blue;
+    color: aliceblue;
+}
+.box2{
+    background-color: rgb(166, 166, 255);
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+}
+.box3{
+    background-color: rgb(206, 206, 255);
+    color: aliceblue;
+    width: 40px;
+    height: 40px;
+}
+
+/* lay study 연습 */
+.container2{
+width: 1000px;
+background-color: blueviolet;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+border: solid black;
+align-items: 10px;
+}
+
+.T{
+width: 100px;
+height: 100px;
+background-color: white;
+border: 1px solid white;
+text-align: center;
+padding: 30px;
+margin: 20px;
+}
+.text1{
+    background-color: pink;
+    color: rgb(255, 255, 255);
+}
+.text2{
+    background-color: rgb(241, 140, 157);
+ color: rgb(255, 255, 255);
+}
+.text3{
+    background-color: rgb(170, 0, 28);
+   color: rgb(255, 255, 255);
+}
+.text4{
+  background-color: rgb(241, 157, 157);
+  color: aliceblue;
+}
+.text5{
+    background-color: rgb(156, 0, 26);
+ color: rgb(255, 255, 255);
+}
